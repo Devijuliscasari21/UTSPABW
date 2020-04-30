@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      .jumbotron {
+    background-image: url("work1.jpg");
+    background-size: cover;
+    height: 770px;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.jumbotron .display-4 {
+    margin-top: 200px ;
+    color:aliceblue;
+}
+.jumbotron p {
+  color: aliceblue;
+}
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="
+    <title>Hello, world!</title>
+  </head>
+  <body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar  bg-transparant fixed-top" id="mainNav" >
+        <div class="container">
+        <a class="navbar-brand" href="page-top">WELCOME</a>
+        <button class="navbar-toggler navbar-toggler-right"  type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link js-scroll-trigger" href="DAFTAR">DAFTAR<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="ARTIKEL">ARTIKEL</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="CONTACT" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  CONTACT
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">TELEPHONE</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">WHATSAPP</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">EMAIL</a>
+                </div>
+              </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <div class="container">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple web</p>
+        <hr class="my-4">
+        <p>Its me Devi Julisca Sari</p>
+        <a  href="phpmyinfo.php" ><button type="button" class="btn btn-primary">PHPinfo</button></a>
+        </div>
+        <br><br><br><br>
+        <div class="container">
+          <div class="alert alert-success">
+            <a href="welcome.php">Form Post</a> 
+          </div>
+          <div class="alert alert-info">
+            <a href="coba.php">Form Get</a> 
+          </div>
+          </div>
+      </div>
+
+      
+
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
